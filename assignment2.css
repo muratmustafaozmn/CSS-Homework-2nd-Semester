@@ -1,0 +1,96 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: #fff;
+}
+
+header {
+    font-family: 'Lobster', cursive;
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e74c3c;
+}
+
+section {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.lyrics {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.band-image {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 2px solid #e74c3c;
+}
+
+/* Specific styles for lyrics */
+p {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 10px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+.yelling {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #e74c3c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.sad {
+    font-style: italic;
+    color: #3498db;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.happy {
+    font-weight: bold;
+    color: #2ecc71;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
